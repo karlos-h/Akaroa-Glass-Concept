@@ -1,21 +1,28 @@
 <div align="center">
 
-<img src="assets/logo.svg" width="88" alt="Akaroa Glass and Glazing logo — a roofline over a four-light window pane">
+<img src="assets/logo.svg" width="88" alt="Akaroa Glass and Glazing logo: a roofline over a four-light window pane">
 
-# Akaroa Glass and Glazing
+# Akaroa Glass and Glazing website (concept)
 
 **Home is where the glass is.**
-
-Marketing site for a glazier in Akaroa, Banks Peninsula, covering all of greater Christchurch.
 
 </div>
 
 ---
 
-> [!IMPORTANT]
-> **Not launched.** Every phone number, email address, testimonial and photograph on this site is a placeholder. See [Before launch](#before-launch) for what has to be replaced first.
+A website concept I built for a client, Akaroa Glass and Glazing, a glazier in Akaroa covering Banks Peninsula and greater Christchurch. It shows how their site could look and work. This is a concept build only and is not a live site.
 
-Commissioned client work for Johnny Chambers, a glazier with 27+ years in the trade. Plain HTML, CSS and vanilla JavaScript — no framework, no build step, no dependencies, no backend. It will run on any static host, and a non-technical owner can hand it to another developer without first installing anything.
+Built with plain HTML, CSS and vanilla JavaScript. There's no framework, build step, dependency or backend, so it runs on any static host.
+
+> [!NOTE]
+> Concept only. Every phone number, email address, testimonial and photo on the page is a placeholder.
+
+## What I focused on
+
+- A mobile-first layout with breakpoints at 40em, 60em and 80em
+- WCAG AA contrast or better on every text and background pairing, with the measured ratios documented
+- A page that still works with JavaScript turned off
+- Te reo Māori terms marked up with `lang="mi"` and explained in plain English on first use
 
 ## Running it
 
@@ -34,7 +41,7 @@ index.html          single page, eight sections; launch checklist in a comment a
 css/styles.css      mobile-first; breakpoints at 40em / 60em / 80em
 js/main.js          progressive enhancement only
 assets/logo.svg     logo mark (also inlined in the page header and footer)
-images/             only README.txt so far — names the four photos still needed
+images/             only README.txt so far, naming the four photos still needed
 .claude/launch.json dev server config for the Claude Code preview
 ```
 
@@ -62,17 +69,17 @@ Verified, not assumed:
 - No horizontal overflow at 320, 375, 768 or 1280 pixels
 - Single `h1`, correct heading order, landmark elements, every section labelled
 - Skip link, visible focus rings, Escape closes the mobile nav and returns focus
-- Works with JavaScript disabled — the nav stays expanded and the form shows a `<noscript>` message pointing at the phone number
+- Works with JavaScript disabled: the nav stays expanded and the form shows a `<noscript>` message pointing at the phone number
 - `lang="mi"` on te reo Māori terms, each glossed in plain English on first use
 
-## Before launch
+## What a real launch would need
 
-Tracked in full under **Unreleased** in [CHANGELOG.md](CHANGELOG.md). The short version:
+Tracked under **Unreleased** in [CHANGELOG.md](CHANGELOG.md). The short version:
 
-- [ ] Real phone number — replace `027 000 0000` and the `tel:+64270000000` hrefs
-- [ ] Real email — confirm `johnny@akaroaglass.co.nz`
-- [ ] Real testimonials — three placeholders are visibly flagged in the page
-- [ ] Real photographs — four of them, named in [`images/README.txt`](images/README.txt)
+- [ ] Real phone number: replace `027 000 0000` and the `tel:+64270000000` hrefs
+- [ ] Real email: confirm `johnny@akaroaglass.co.nz`
+- [ ] Real testimonials: three placeholders are visibly flagged in the page
+- [ ] Real photographs: four of them, named in [`images/README.txt`](images/README.txt)
 - [ ] Connect the quote form to a handler; it currently says plainly that it isn't connected
 - [ ] Build `about.html`, `services.html`, `gallery.html`, `contact.html`
 - [ ] Favicon set and an `og:image`
@@ -90,4 +97,4 @@ Commits follow [Conventional Commits](https://www.conventionalcommits.org/). Rel
 
 ## Licence
 
-All rights reserved — see [LICENSE](LICENSE). This is client work, not open source, and the licence file is a placeholder until ownership terms are agreed with the client.
+All rights reserved, see [LICENSE](LICENSE). This is a client concept, not open source.
