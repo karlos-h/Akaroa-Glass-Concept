@@ -29,6 +29,14 @@ Work required before this site can go live. Nothing here is started.
 - Confirm with the client whether trading hours, company registration details
   or insurer panel memberships should appear on the site.
 
+## [0.2.0] - 2026-11-15
+
+### Changed
+
+- Presented as a website concept built for a client. It is not a live site.
+- Replaced the owner's personal story on the About section with placeholder text.
+- Corrected the name in the licence.
+
 ## [0.1.0] - 2026-10-30
 
 First build of the homepage. Content and imagery are deliberately
